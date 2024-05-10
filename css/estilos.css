@@ -1,0 +1,131 @@
+/* NORMALIZAR NAVEGADOR */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* ESTILOS GLOBALES */
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    padding: 5px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a h1 {
+    margin: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+header nav a {
+    padding: 5px;
+    margin: 0 15px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+header nav a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+/* MAIN */
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main h2 {
+    margin: 20px;
+    padding: 5px;
+    width: 250px;
+    background-color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.peliculas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px
+}
+
+.info {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 20px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.links a {
+    color: #ddd;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.redes {
+    color: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.redes a {
+    margin: 0 4px;
+    color: #ddd;
+    font-size: 16px;
+}
