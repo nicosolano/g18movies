@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPO Grupo 18</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    
+    <header>
+
+        <a href="index.html">
+            <h1>sitio web grupo 18</h1>
+        </a>
+
+        <nav>
+            <a href="index.html">inicio</a>
+            <a href="#">películas</a>
+            <a href="#">series</a>
+            <a href="formulario.html">regístrate</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+    <section class="form-wrapper">
+        
+
+
+        <form id="formulario" action="" onsubmit="return validarInputs()">
+
+
+            <h2>Registrate</h2>
+
+            <p class="input">Completá el siguiente formulario y envianos tus comentarios.</p>
+
+
+            <div class="input">
+                <label for="firstName">*Nombre:</label>
+                <input type="text" name="firstName" id="firstName">
+            </div>
+
+            <div class="input">
+                <label for="lastName">*Apellido:</label>
+                <input type="text" name="lastName" id="lastName">
+            </div>
+
+            <div class="input">
+                <label for="email">*Correo electrónico:</label>
+                <input type="text" name="email" id="email">
+            </div>
+
+            <div class="input">
+                <label for="age" name="age" id="age">Edad:</label>
+                <select name="age" id="age">
+                    <option value="">Seleccione en que rango se encuentra su Edad</option>
+                    <option value="menos20">Menos de 20 años</option>
+                    <option value="20a40">Entre 20 y 40 años</option>
+                    <option value="mas40">Mas de 40 años</option>
+                </select>
+            </div>
+
+            
+            <div class="input">
+                <label for="comentario">Comentarios:</label>
+            </div>
+            
+
+            <div>
+                <textarea name="comentarios" id="comentarios" cols="60" rows="10">Escribe tu comentario aquí...</textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+
+    
+
+    </form>
+    </section>
+    
+    <script src="validacion.js"></script>
+
+
+    </main>
+
+    <footer>
+
+        <nav class="links">
+            <a href="#">términos y condiciones</a>
+            <a href="#">preguntas frecuentes</a>
+            <a href="#">centro de ayuda</a>
+            <a href="#">contáctanos</a>
+        </nav>
+
+        <div class="redes">
+            <h3>Redes Sociales</h3>
+            <nav>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </nav>
+        </div>
+
+    </footer>
+
+</body>
+</html>
