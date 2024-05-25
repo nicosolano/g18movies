@@ -1,0 +1,25 @@
+/* FORMULARIO */
+
+.form-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(../assets/fondo_form.jpeg);
+    background-size: cover;
+}
+
+.form-wrapper h2{
+    width: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+ 
+
+.input {
+    height: 50px;
+    padding: 30px;
+    text-align: left;
+   
+}
+
