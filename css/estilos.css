@@ -74,7 +74,7 @@ main h2 {
     letter-spacing: 1px;
 }
 
-.peliculas {
+.card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -82,13 +82,22 @@ main h2 {
     gap: 30px
 }
 
-.info {
-    width: 300px;
-    height: 400px;
+.card {
+    width: 320px;
+    height: 480px;
     overflow: hidden;
     background-color: #fff;
-    text-align: center;
     border-radius: 10px;
+    transition: 0.2s;
+}
+
+.card:hover {
+    transform: scale(105%);
+}
+
+.card img {
+    width: 320px;
+    height: 480px;
 }
 
 /* FOOTER */
