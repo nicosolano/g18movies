@@ -156,6 +156,7 @@ main h2 {
 }
 
 .form-inputs {
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -180,12 +181,26 @@ main h2 {
 }
 
 input, select, textarea {
+    padding: 2px;
     background: rgba(0, 0, 0, .5);
     color: #aaa;
     border: 1px solid #333;
     border-radius: 5px;
 }
 
+option {
+    color: #000;
+}
+
+.btn {
+    margin-bottom: 15px;
+    padding: 5px;
+    background: rgba(0, 170, 70, 1);
+    color: #fff;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+}
 
 /* NOSOTROS */
 
