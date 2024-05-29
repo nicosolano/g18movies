@@ -29,64 +29,56 @@
 
     <main>
 
-    <section class="form-wrapper">
+        <div class="presentacion">
+            <h1>¡Creá una cuenta fácil y sencillo!</h1>
+            <p>Registrate para recibir notificaciones y obtener beneficios exclusivos.</p>
+        </div>
+
+        <form class="form-container" id="formulario" action="" onsubmit="return validarInputs()">
+
+            <h2>Ingrese sus datos</h2>
+
+            <div class="form-inputs">
+                <div class="input">
+                    <label for="firstName">*Nombre:</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Ingrese su nombre">
+                </div>
+
+                <div class="input">
+                    <label for="lastName">*Apellido:</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Ingrese su apellido">
+                </div>
+
+                <div class="input">
+                    <label for="email">*Correo electrónico:</label>
+                    <input type="text" name="email" id="email" placeholder="Ingrese su correo">
+                </div>
+
+                <div class="input">
+                    <label for="age" name="age" id="age">Edad:</label>
+                    <select name="age" id="age">
+                        <option value="" hidden>Seleccione en que rango se encuentra su Edad</option>
+                        <option value="menos20">Menos de 20 años</option>
+                        <option value="20a40">Entre 20 y 40 años</option>
+                        <option value="mas40">Mas de 40 años</option>
+                    </select>
+                </div>
+
+                
+                <div class="comentario">
+                    <label for="comentario">Comentarios:</label>
+                    <textarea name="comentarios" id="comentarios" cols="60" rows="10" placeholder="Escribe tu comentario aquí..."></textarea>
+                </div>
+
+                <div class="input">
+                    <input type="submit" value="Enviar">
+                </div>
+            </div>
+
+        </form>
         
 
-
-        <form id="formulario" action="" onsubmit="return validarInputs()">
-
-
-            <h2>Registrate</h2>
-
-            <p class="input">Completá el siguiente formulario y envianos tus comentarios.</p>
-
-
-            <div class="input">
-                <label for="firstName">*Nombre:</label>
-                <input type="text" name="firstName" id="firstName">
-            </div>
-
-            <div class="input">
-                <label for="lastName">*Apellido:</label>
-                <input type="text" name="lastName" id="lastName">
-            </div>
-
-            <div class="input">
-                <label for="email">*Correo electrónico:</label>
-                <input type="text" name="email" id="email">
-            </div>
-
-            <div class="input">
-                <label for="age" name="age" id="age">Edad:</label>
-                <select name="age" id="age">
-                    <option value="">Seleccione en que rango se encuentra su Edad</option>
-                    <option value="menos20">Menos de 20 años</option>
-                    <option value="20a40">Entre 20 y 40 años</option>
-                    <option value="mas40">Mas de 40 años</option>
-                </select>
-            </div>
-
-            
-            <div class="input">
-                <label for="comentario">Comentarios:</label>
-            </div>
-            
-
-            <div>
-                <textarea name="comentarios" id="comentarios" cols="60" rows="10">Escribe tu comentario aquí...</textarea>
-            </div>
-
-            <div>
-                <input type="submit" value="Enviar">
-            </div>
-
-    
-
-    </form>
-    </section>
-    
-    <script src="js/validacion.js"></script>
-
+        <script src="js/validacion.js"></script>
 
     </main>
 

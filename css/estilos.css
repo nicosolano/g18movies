@@ -71,11 +71,15 @@ main {
     width: 100%;
     margin: 0 auto;
     padding: 20px;
+    background-image: url('../img/fondo.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .presentacion {
     padding: 30px;
-    background-color: #333;
+    background: rgba(0, 0, 0, .8);
     border-radius: 10px;
     color: #fff;
     text-align: center;
@@ -88,10 +92,9 @@ main {
 
 main h2 {
     margin: 20px;
-    margin-left: px;
     padding: 15px;
     width: 400px;
-    background-color: #333;
+    background: rgba(0, 0, 0, .8);
     border-radius: 10px;
     color: #fff;
     font-size: 16px;
@@ -137,13 +140,60 @@ main h2 {
     height: 600px;
 }
 
+/* FORMULARIO */
+
+.form-container {
+    margin: 20px auto;
+    padding: 10px;
+    width: 800px;
+    background: rgba(0, 0, 0, .7);
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.input {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.comentario {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+input, select, textarea {
+    background: rgba(0, 0, 0, .5);
+    color: #aaa;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+
 /* NOSOTROS */
 
 .mapa, .redes {
     margin: 20px;
     padding: 16px;
     width: 500px;
-    background-color: #bbb;
+    background: rgba(0, 0, 0, .7);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -152,6 +202,7 @@ main h2 {
 }
 
 .mapa p, .redes p {
+    color: #fff;
     font-weight: bold;
     margin: 0 30px;
     margin-bottom: 20px;
@@ -166,7 +217,7 @@ main h2 {
 }
 
 .redes nav a {
-    color: #000;
+    color: #fff;
     font-weight: bold;
     letter-spacing: 1px;
     font-size: 35px;
