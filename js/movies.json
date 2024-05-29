@@ -1,5 +1,6 @@
 [
     {
+      "id": "avatar",
       "Title": "Avatar",
       "Year": "2009",
       "Rated": "PG-13",
@@ -29,6 +30,7 @@
       ]
     },
     {
+      "id": "legend",
       "Title": "I Am Legend",
       "Year": "2007",
       "Rated": "PG-13",
@@ -57,6 +59,7 @@
       ]
     },
     {
+      "id": "300",
       "Title": "300",
       "Year": "2006",
       "Rated": "R",
@@ -84,6 +87,7 @@
       ]
     },
     {
+      "id": "avengers",
       "Title": "The Avengers",
       "Year": "2012",
       "Rated": "PG-13",
@@ -113,6 +117,7 @@
       ]
     },
     {
+      "id": "wolf",
       "Title": "The Wolf of Wall Street",
       "Year": "2013",
       "Rated": "R",
@@ -142,6 +147,7 @@
       ]
     },
     {
+      "id": "interestelar",
       "Title": "Interstellar",
       "Year": "2014",
       "Rated": "PG-13",
@@ -171,6 +177,7 @@
       ]
     },
     {
+      "id": "got",
       "Title": "Game of Thrones",
       "Year": "2011–",
       "Rated": "TV-MA",
@@ -201,6 +208,7 @@
       ]
     },
     {
+      "id": "vikings",
       "Title": "Vikings",
       "Year": "2013–",
       "Rated": "TV-14",
@@ -231,6 +239,7 @@
       ]
     },
     {
+      "id": "gotham",
       "Title": "Gotham",
       "Year": "2014–",
       "Rated": "TV-14",
@@ -261,6 +270,7 @@
       ]
     },
     {
+      "id": "power",
       "Title": "Power",
       "Year": "2014–",
       "Rated": "TV-MA",
@@ -291,6 +301,7 @@
       ]
     },
     {
+      "id": "narcos",
       "Title": "Narcos",
       "Year": "2015–",
       "Rated": "TV-MA",
@@ -321,6 +332,7 @@
       ]
     },
     {
+      "id": "heisenberg",
       "Title": "Breaking Bad",
       "Year": "2008–2013",
       "Rated": "TV-14",
@@ -352,6 +364,7 @@
     },
     {
       "ComingSoon": true,
+      "id": "strange",
       "Title": "Doctor Strange",
       "Year": "2016",
       "Rated": "N/A",
@@ -380,6 +393,7 @@
     },
     {
       "ComingSoon": true,
+      "id": "rogue1",
       "Title": "Rogue One: A Star Wars Story",
       "Year": "2016",
       "Rated": "N/A",
@@ -410,6 +424,7 @@
     },
     {
       "ComingSoon": true,
+      "id": "assassin",
       "Title": "Assassin's Creed",
       "Year": "2016",
       "Rated": "N/A",
@@ -439,6 +454,7 @@
     },
     {
       "ComingSoon": true,
+      "id": "cage",
       "Title": "Luke Cage",
       "Year": "2016–",
       "Rated": "TV-MA",
