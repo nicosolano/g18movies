@@ -21,6 +21,10 @@ img {
     max-width: 100%;
 }
 
+button {
+    border-style: none;
+}
+
 /* HEADER */
 
 header {
@@ -138,6 +142,35 @@ main h2 {
 .info-container img {
     width: 450px;
     height: 600px;
+}
+
+/* INFO-CONTAINER */
+
+.container2 {
+    margin: 0 auto;
+    width: 1200px;
+    align-content: center;
+}
+
+.info-container {
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, .7);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info {
+    width: 400px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 40px;
+    font-size: 20px;
 }
 
 /* FORMULARIO */
